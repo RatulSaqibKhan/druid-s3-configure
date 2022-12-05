@@ -77,6 +77,7 @@ druid_escalator_authorizerName=MyBasicMetadataAuthorizer
 druid_auth_authorizers=["MyBasicMetadataAuthorizer"]
 druid_auth_authorizer_MyBasicMetadataAuthorizer_type=basic
 
+# Deep Storage Configuration
 druid_storage_type=s3
 druid_storage_bucket=<Write Bucket Name>
 druid_storage_baseKey=<Write bucket\'s base directory>
@@ -87,6 +88,7 @@ druid_s3_enabePathStyleAccess=true
 druid_s3_endpoint_signingRegion=us-east-1
 druid_s3_endpoint_url=<Write S3 Url>
 
+# Log Storage Configuration
 druid_indexer_logs_type=s3
 druid_indexer_logs_s3Bucket=<Write Bucket Name>
 druid_indexer_logs_s3Prefix=<Write bucket\'s directory prefix>
