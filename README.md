@@ -11,3 +11,6 @@
       ```
         docker compose up -d
       ```
+
+### Learn More
+  1. [Apache Druid with Docker](https://druid.apache.org/docs/latest/tutorials/docker.html)
